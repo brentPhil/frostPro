@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/ac9525e5f200f57332b3080d0db9d8f6?family=Sailec-Medium);
+
+body{
+    margin: 0;
+    font-family: Sailec-Medium;
+}
+.visual{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1630546812573-86cb96d6bfa0?ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background: url('http://frostdesigngroup.com/site/assets/images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.section{
+    width: 85%;
+    height: 100vh;
+    margin:  0 auto;
+}
+
+.nav{
+    position: absolute;
+    padding: 60px 0;
+}
+
+.hero{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    h5{
+        opacity: 0.8;
+        font-size: 24px;
+        letter-spacing: 0.1em;
+    }
+    h1{
+        margin: 0;
+        font-size: 72px;
+    }
+    h6{
+        margin: 0;
+        font-size: 24px;
+        opacity: 0.9;
+    }
+}
