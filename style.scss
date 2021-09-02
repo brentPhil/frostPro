@@ -7,14 +7,14 @@ body{
 .visual{
     width: 100vw;
     height: 100vh;
-    background: url('https://github.com/brentPhil/frostPro/blob/master/img/VisualproBack.png?raw=true');
+    background: url('img/VisualproBack.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .logo{
     width: 100px;
     height: 100px;
-    background: url('https://raw.githubusercontent.com/brentPhil/frostP…7b90aad94c0102a152f2b276c3ca1437dc00/img/Logo.svg');
+    background: url('img/Logo.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -29,8 +29,6 @@ body{
 .nav{
     position: absolute;
     padding: 60px 0;
-    width: 100%;
-    background-color: aqua;
 }
 
 .hero{
