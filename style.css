@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(//db.onlinewebfonts.com/c/ac9525e5f200f57332b3080d0db9d8f6?family=Sailec-Medium);
 body {
   margin: 0;
@@ -7,7 +8,7 @@ body {
 .visual {
   width: 100vw;
   height: 100vh;
-  background: url("img/VisualproBack.png");
+  background: url("https://github.com/brentPhil/frostPro/blob/master/img/VisualproBack.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,7 +16,7 @@ body {
 .logo {
   width: 100px;
   height: 100px;
-  background: url("img/Logo.svg");
+  background: url("https://raw.githubusercontent.com/brentPhil/frostP…7b90aad94c0102a152f2b276c3ca1437dc00/img/Logo.svg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -30,6 +31,8 @@ body {
 .nav {
   position: absolute;
   padding: 60px 0;
+  width: 100%;
+  background-color: aqua;
 }
 
 .hero {
